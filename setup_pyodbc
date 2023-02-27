@@ -1,0 +1,4 @@
+ACCEPT_EULA=Y dpkg -i msodbcsql17_17.6.1.1-1_amd64.deb
+
+cp odbc.ini /etc/odbc.ini
+cp odbcinst.ini /etc/odbcinst.ini

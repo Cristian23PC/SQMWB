@@ -1,0 +1,7 @@
+{
+    "scripts": {
+        "dokku": {
+            "predeploy": "cd /app && bash setup_pyodbc && python predeploy.py"
+        }
+    }
+}
