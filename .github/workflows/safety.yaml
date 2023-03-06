@@ -4,9 +4,10 @@
 name: PyUp Security Scan
 
 on:
-  push: # Run on every push to any branch
-  pull_request: # Run on new pull requests
-
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
 jobs:
   safety:
     runs-on: ubuntu-latest
